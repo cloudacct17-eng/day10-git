@@ -1,5 +1,5 @@
 steps:
-    - name: hashicorp cloudbuild terraform
+    - name: hashicorp/terraform:1.9
       id: terraform-apply
       entrypoint: sh
       args:
